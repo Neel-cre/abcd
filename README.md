@@ -42,7 +42,7 @@ Precision, Recall, and F1-score: Metrics to evaluate the quality of predictions,
 
 To set up the project on your local machine, follow these steps:
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+cd A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK
 
 
 2. Install Dependencies
