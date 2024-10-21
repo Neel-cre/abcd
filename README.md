@@ -12,13 +12,17 @@ Sad
 
 
 Dataset:-
+you can directly load the dataset from hugging face 
+
+from datasets import load_dataset
+# Load the dataset
+dataset = load_dataset("Zahra99/IEMOCAP_Text")
+
 The dataset contains dialogues, with each dialogue labeled with one of the four emotions mentioned above. Each dialogue is split into sentences, and speaker information is used to enrich the model's understanding.
 
 Sentences: Tokenized versions of text (lists of integers).
 Speakers: Additional features representing speakers.
 Targets: Emotion labels.
-
-
 
 
 Model Architecture:-
