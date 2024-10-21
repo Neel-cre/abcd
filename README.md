@@ -48,7 +48,7 @@ cd A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK
 
 2. Install Dependencies
 Ensure you have Python 3.7+ installed. Then install the required Python packages:
-pip install -r requirements.txt
+pip install -r Requirements.txt
 
 after simply setting up the Requirements you can run the python file to get the results 
 Results
