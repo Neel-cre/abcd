@@ -55,4 +55,6 @@ Results
 After training, you should see results similar to this:
 
 ![image](https://github.com/user-attachments/assets/000182a5-50e7-4e94-8664-412479b0c16e)
+![image](https://github.com/user-attachments/assets/c39aa5bf-6fb4-4c67-9132-8d071db120f9)
+
 
