@@ -18,7 +18,7 @@ from datasets import load_dataset
 # Load the dataset
 dataset = load_dataset("Zahra99/IEMOCAP_Text")
 
-The dataset contains dialogues, with each dialogue labeled with one of the four emotions mentioned above. Each dialogue is split into sentences, and speaker information is used to enrich the model's understanding.
+The dataset contains 5 sessions which include dialogues, with each dialogue labeled with one of the four emotions mentioned above. Each dialogue is split into sentences, and speaker information is used to enrich the model's understanding.
 
 Sentences: Tokenized versions of text (lists of integers).
 Speakers: Additional features representing speakers.
