@@ -5,9 +5,9 @@ This project implements a Long Short-Term Memory (LSTM) network for recognizing 
 
 The four emotion classes used in this task are:
 
-Angry
-Happy
-Neutral
+Angry, 
+Happy, 
+Neutral, 
 Sad
 
 
@@ -24,11 +24,11 @@ Targets: Emotion labels.
 Model Architecture:-
 The model uses:
 
-Embedding Layer: Converts word indices into dense vectors.
-LSTM Layer: Processes word embeddings to learn sequential patterns.
-Speaker Information: Speaker features are concatenated with LSTM outputs.
-Dense Layer: Fully connected layers for final classification.
-Dropout Layer: Regularizes the model by randomly dropping units during training.
+1. Embedding Layer: Converts word indices into dense vectors.
+2. LSTM Layer: Processes word embeddings to learn sequential patterns.
+3. Speaker Information: Speaker features are concatenated with LSTM outputs.
+4. Dense Layer: Fully connected layers for final classification.
+5. Dropout Layer: Regularizes the model by randomly dropping units during training.
 
 
 Key Features:-
@@ -42,7 +42,7 @@ Precision, Recall, and F1-score: Metrics to evaluate the quality of predictions,
 
 To set up the project on your local machine, follow these steps:
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ayushhimmatsinghka/A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK)
+git clone [https://github.com/ayushhimmatsinghka/A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK.git](https://github.com/ayushhimmatsinghka/A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK)
 cd A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK
 
 
