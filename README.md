@@ -60,4 +60,16 @@ pip install -r Requirements.txt
 ![image](https://github.com/user-attachments/assets/000182a5-50e7-4e94-8664-412479b0c16e)
 ![image](https://github.com/user-attachments/assets/c39aa5bf-6fb4-4c67-9132-8d071db120f9)
 
+Improvements
+Significant improvements were made to enhance model accuracy and robustness:
+
+Bidirectional LSTM (BiLSTM): Replacing LSTM with BiLSTM for both sentence and dialog models resulted in a 63% accuracy for sentence classification and 72% accuracy for dialog classification, marking a slight improvement.
+Multi-Head Attention: Introduced in the dialog model to focus on relevant parts of dialogues, contributing to improved contextual understanding.
+Attention-Based Pooling: Implemented to refine the dialog model’s focus on key dialog sections, enhancing performance on longer contexts.
+A PDF document, improvements_EE798R_improvements_pdf.pdf, is included, detailing these upgrades and also added the updated code with file name assignment_ee798r_ayush_210245_improvement.py
+
+result obtained for dialog model-
+![image](https://github.com/user-attachments/assets/b3cd91ac-de07-4ff0-8e29-0b40ace3e1e9)
+
+
 
