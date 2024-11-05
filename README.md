@@ -1,5 +1,7 @@
 # A-SELF-ATTENTIVE-EMOTION-RECOGNITION-NETWORK
 
+PHASE-1:-
+
 Project Overview:-
 This project implements a Long Short-Term Memory (LSTM) network for recognizing emotions from text dialogues. The model also incorporates speaker information, allowing it to learn patterns related to who is speaking, in addition to the textual content. The ultimate goal is to predict the emotion associated with a sequence of text while utilizing speaker features to improve classification accuracy.
 
@@ -59,6 +61,8 @@ pip install -r Requirements.txt
 
 ![image](https://github.com/user-attachments/assets/000182a5-50e7-4e94-8664-412479b0c16e)
 ![image](https://github.com/user-attachments/assets/c39aa5bf-6fb4-4c67-9132-8d071db120f9)
+
+PHASE-2:-
 
 Improvements
 Significant improvements were made to enhance model accuracy and robustness:
