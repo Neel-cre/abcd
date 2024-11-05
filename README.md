@@ -72,7 +72,9 @@ Significant improvements were made to enhance model accuracy and robustness:
 3. Attention-Based Pooling: Implemented to refine the dialog model’s focus on key dialog sections, enhancing performance on longer contexts.
 
 
-A PDF document, improvements_EE798R_improvements_pdf.pdf, is included, detailing these upgrades and also added the updated code with file name assignment_ee798r_ayush_210245_improvement.py
+A detailed document, improvements_EE798R_improvements_pdf.pdf, is included, outlining the mathematical basis of the upgrades and providing an in-depth explanation of the modifications made. The updated code reflecting these enhancements is provided in assignment_ee798r_ayush_210245_improvement.py.
+
+Additionally, a new PDF document name model_after_improvement.pdf showcasing the model’s performance and results post-improvement has been added, offering a comprehensive view of the improvements in action.
 
 result obtained for dialog model-
 
