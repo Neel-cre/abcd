@@ -165,13 +165,13 @@ def SentenceModel(vocab_size, embedding_size, first_rnn_size, num_classes, dropo
     else:
         embeddings = tf.keras.layers.Embedding(vocab_size, embedding_size, trainable=False)(x)
 
-    # Bidirectional LSTM
-    lstm_fw = tf.keras.layers.LSTM(first_rnn_size, return_sequences=True)
-    lstm_bw = tf.keras.layers.LSTM(first_rnn_size, return_sequences=True, go_backwards=True)
-    rnn_outputs_fw = lstm_fw(embeddings)
-    rnn_outputs_bw = lstm_bw(embeddings)
+    #  LSTM
+    rnn_outputs = tf.keras.layers.LSTM(first_rnn_size, return_sequences=True)
+    # lstm_bw = tf.keras.layers.LSTM(first_rnn_size, return_sequences=True, go_backwards=True)
+    # rnn_outputs_fw = lstm_fw(embeddings)
+    # rnn_outputs_bw = lstm_bw(embeddings)
 
-    rnn_outputs = tf.keras.layers.Concatenate(axis=-1)([rnn_outputs_fw, rnn_outputs_bw])
+    # rnn_outputs = tf.keras.layers.Concatenate(axis=-1)([rnn_outputs_fw, rnn_outputs_bw])
 
     # Gather the last relevant output according to sequence length
     def last_relevant_output(outputs, lengths):
