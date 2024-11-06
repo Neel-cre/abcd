@@ -446,9 +446,8 @@ def build_dialog_model(vocab_size, embedding_size, sentence_rnn_size, dialog_rnn
     embedding_layer = tf.keras.layers.Embedding(vocab_size, embedding_size)
     embedded_sentences = tf.keras.layers.TimeDistributed(embedding_layer)(input_dialog)
 
-    # Sentence-level BiLSTM with TimeDistributed
+    # Sentence-level LSTM with TimeDistributed
     sentence_lstm_fw = tf.keras.layers.LSTM(sentence_rnn_size // 2, return_sequences=True)
-    sentence_lstm_bw = tf.keras.layers.LSTM(sentence_rnn_size // 2, return_sequences=True, go_backwards=True)
 
     # Apply Bidirectional LSTM to each sentence in the dialog
     sentence_rnn = tf.keras.layers.TimeDistributed(
